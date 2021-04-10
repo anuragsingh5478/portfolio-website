@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+.homepage {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./bg1.jpg");
+  background-size: cover;
+}
+.homepage-container {
+  padding: 10vh;
+}
+
+.homepage-container > .name {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "New Tegomin", serif;
+}
