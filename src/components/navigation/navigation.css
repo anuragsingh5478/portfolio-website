@@ -22,14 +22,18 @@
   list-style-type: none;
   padding-top: 10vh;
 }
-.sidebar-menu > ul > li {
+.sidebar-menu > ul > li > a {
+  display: block;
   font-size: 2rem;
   font-weight: bolder;
   padding: 10px 20px;
+  text-decoration: none;
+  color: black;
 }
-.sidebar-menu > ul > li:hover {
+.sidebar-menu > ul > li > a:hover {
+  padding: 8px 20px;
+  border-top: 1px solid white;
+  border-bottom: 2px solid white;
   cursor: pointer;
   color: white;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
 }

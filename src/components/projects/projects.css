@@ -1,0 +1,9 @@
+.projects {
+  background-color: #a3d2ca;
+  color: #f7f3e9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

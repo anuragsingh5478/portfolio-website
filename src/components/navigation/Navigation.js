@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navigation.css";
-
+import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 import { IconButton } from "@material-ui/core";
 export default function Navigation() {
@@ -25,9 +25,15 @@ export default function Navigation() {
 
       <div id="sidebar-menu" className="sidebar-menu">
         <ul>
-          <li>HOME</li>
-          <li>ABOUT </li>
-          <li>PROJECTS</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/projects">PROJECTS</Link>
+          </li>
+          <li>
+            <Link to="/">About</Link>{" "}
+          </li>
         </ul>
       </div>
     </div>

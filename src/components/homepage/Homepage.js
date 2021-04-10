@@ -8,7 +8,7 @@ export default function Homepage() {
       <div className="homepage-container">
         <div className="name">
           <ReactTypingEffect
-            text={["Hi! my name is Anurag Singh"]}
+            text={["Hi! My name is Anurag Singh."]}
             cursorRenderer={(cursor) => <h1>{cursor}</h1>}
             eraseDelay="100000"
             displayTextRenderer={(text, i) => {
