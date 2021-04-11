@@ -1,5 +1,7 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
+import { green } from "@material-ui/core/colors";
+import StarsIcon from "@material-ui/icons/Stars";
 import "./homepage.css";
 export default function Homepage() {
   return (
@@ -29,6 +31,20 @@ export default function Homepage() {
               );
             }}
           />
+        </div>
+        <div className="description">
+          <div>
+            <StarsIcon color="secondary" />
+            Web Developer
+          </div>
+          <div>
+            <StarsIcon color="primary" />
+            IT Graduate
+          </div>
+          <div>
+            <StarsIcon style={{ color: green[500] }} />
+            Tech Enthusiast
+          </div>
         </div>
       </div>
     </div>

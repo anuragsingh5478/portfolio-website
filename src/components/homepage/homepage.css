@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
 .homepage {
-  background-color: aliceblue;
   width: 100vw;
   height: 100vh;
+  min-height: fit-content;
   background-image: url("./bg1.jpg");
   background-size: cover;
 }
@@ -14,4 +14,41 @@
   text-align: center;
   font-size: 2rem;
   font-family: "New Tegomin", serif;
+}
+
+.homepage-container > .description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage-container > .description > div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .homepage-container > .name {
+    font-size: 1.5rem;
+  }
+  .homepage-container > .description {
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .homepage-container > .name {
+    font-size: 1rem;
+  }
+  .homepage-container > .description {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
