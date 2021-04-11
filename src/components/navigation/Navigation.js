@@ -8,10 +8,10 @@ export default function Navigation() {
   useEffect(() => {
     var sidebarMenu = document.getElementById("sidebar-menu");
     if (menuVisible) {
-      sidebarMenu.style.transform = "translateX(30vw)";
+      sidebarMenu.style.transform = "translateX(0%)";
       sidebarMenu.style.transition = "transform 2s";
     } else {
-      sidebarMenu.style.transform = "translateX(-30vw)";
+      sidebarMenu.style.transform = "translateX(-100%)";
       sidebarMenu.style.transition = "transform 2s";
     }
   }, [menuVisible]);
